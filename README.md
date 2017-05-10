@@ -36,8 +36,8 @@ Some basic &amp; usefull git commands
 
 ## Tag management
 
-- `git tag -a <tagname> -m "<tagcomment>"` : create tag
--	`git push origin --tags` : push tags
+- `git tag -a <tagname> -m "<tagcomment>"` : create tag.
+-	`git push origin --tags` : push tags.
 - `git checkout -b <branchname> <tagname>` : checking out tag in branch, example `git checkout -b version2 v2.0.0`.
 
 ## Remote

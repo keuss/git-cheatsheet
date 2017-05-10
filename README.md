@@ -44,7 +44,8 @@ Some basic &amp; usefull git commands
 
 ## Misc
 
-- What is `origin` : origin is an alias on your system for a particular remote repository. It's not actually a property of that repository (see [here](http://stackoverflow.com/questions/9529497/what-is-origin-in-git))
+- What is `origin` : origin is an alias on your system for a particular remote repository. It's not actually a property of that repository (see [here](http://stackoverflow.com/questions/9529497/what-is-origin-in-git)).
+- What is `HEAD` : you can think of the HEAD as the "current branch. "HEAD" (uppercase) refers exclusively to the currently active head.
 
 ## .gitconfig
 

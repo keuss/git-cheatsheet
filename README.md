@@ -19,11 +19,18 @@ Some basic &amp; usefull git commands
 
 ## Synchronization
 
+## Branch management
+
+- `git branch -a` : show all branch.
+- `git branch -r` : show remote branch.
+- `git checkout <existing-branch>` : check out the specified branch.
+- `git checkout -b <new-branch>` : create and check out new-branch.
+- `git merge <branch>` : merge the specified branch into the current branch. Git will determine the merge algorithm automatically.
+- `git merge --no-ff <branch>` : merge the specified branch into the current branch, but always generate a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.
+
 ## Tag management
 
 - `git checkout -b version2 v2.0.0` : checking out tag in branch
-
-## Branch management
 
 ## Remote
 

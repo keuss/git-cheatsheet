@@ -6,6 +6,8 @@ Some basic &amp; usefull git commands
 - `git init <directory>` : transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions of the project.
 - `git clone <repo> <directory>` : clone the repository into the folder on the local machine (makes a git repositpry copy from a remonte source).
 - `git stauts` : lists all new or modified files to be commited.
+- `git log` : viewing the commit history.
+- `git diff --staged` : shows file differences between staging and the last file version.
 
 ## Saving changes & resetting
 
@@ -18,6 +20,8 @@ Some basic &amp; usefull git commands
 - `git reset --hard HEAD^` : to undo a local commit + resets your index and working directory.
 
 ## Synchronization
+
+ - `git fetch` : fetches all the objects from the remote repository that are not present in the local one (example `git fetch origin`).
 
 ## Branch management
 
@@ -40,6 +44,7 @@ Some basic &amp; usefull git commands
 
 ## Misc
 
+## .gitconfig
 
 WIP ...
 

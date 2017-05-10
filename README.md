@@ -9,4 +9,6 @@ Some basic &amp; usefull git commands
 - `git reset --hard` : resets your index and working directory to the state of your last commit (reset HEAD, index and working tree). Any changes to tracked files in the working directory since your last commit are discarded. Opposite of git add.
 - `git reset --keep` : remove files from the staging area, but leave the working directory unchanged (reset HEAD but keep local changes).
 - `git reset -- <file>` : remove the specified file from the staging area, but leave the working directory unchanged.
-- `git reset --hard HEAD^` : to undo a local commit + resets your index and working directory
+- `git commit -m <message>` : the staged snapshot is committed to the project history 
+- `git commit -am <message>` : the staged snapshot is committed to the project history + git add for the already tracked files
+- `git reset --hard HEAD^` : to undo a local commit + resets your index and working directory.

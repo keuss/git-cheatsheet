@@ -19,3 +19,4 @@ WIP ...
 
 - https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac
 - https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+- https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html

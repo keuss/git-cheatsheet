@@ -38,11 +38,13 @@ Some basic &amp; usefull git commands
 
 ## Remote
 
-- `git remote -v` : see what url belongs to each remote by using (origin is an alias on your system for a particular remote repositor, it is a local alias set as a key for the remote repository URL).
+- `git remote -v` : see what url belongs to each remote by using (origin is an alias on your system for a particular remote repositor, it is a local alias set as a key for the remote repository URL). Remotes are simply an alias that store the url of repositories. You can see what url belongs to each remote by using the command.
 - `git remote get-url origin` : display url of the repo
 - `git remote set-url origin <newurl>` : set new url
 
 ## Misc
+
+- What is `origin` : origin is an alias on your system for a particular remote repository. It's not actually a property of that repository (see [here](http://stackoverflow.com/questions/9529497/what-is-origin-in-git))
 
 ## .gitconfig
 

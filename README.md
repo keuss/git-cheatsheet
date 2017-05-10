@@ -18,3 +18,4 @@ WIP ...
 ## Links
 
 - https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac
+- https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf

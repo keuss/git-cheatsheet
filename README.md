@@ -14,3 +14,7 @@ Some basic &amp; usefull git commands
 - `git reset --hard HEAD^` : to undo a local commit + resets your index and working directory.
 
 WIP ...
+
+## Links
+
+- https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac

@@ -49,7 +49,7 @@ Some basic &amp; usefull git commands
 ## Misc
 
 - What is `origin` : origin is an alias on your system for a particular remote repository. It's not actually a property of that repository (see [here](http://stackoverflow.com/questions/9529497/what-is-origin-in-git)).
-- What is `HEAD` : you can think of the HEAD as the "current branch. "HEAD" (uppercase) refers exclusively to the currently active head (see [here](http://stackoverflow.com/questions/2304087/what-is-head-in-git)).
+- What is `HEAD` : you can think of the HEAD as the "current branch. "HEAD" (uppercase) refers exclusively to the currently active head (see [here](http://stackoverflow.com/questions/2304087/what-is-head-in-git)). HEAD always refers to the most recent commit on the current branch. When you change branches, HEAD is updated to refer to the new branch’s latest commit.
 
 ## .gitconfig
 

@@ -21,7 +21,9 @@ Some basic &amp; usefull git commands
 
 ## Synchronization
 
- - `git fetch` : fetches all the objects from the remote repository that are not present in the local one (example `git fetch origin`).
+- `git fetch` : fetches all the objects (files, branch, ...) from the remote repository that are not present in the local one (example `git fetch origin`).
+- `git pull` : fetches the files from the remote repository and merges it with your local one (git fetch + git merge), example `git pull origin master`.
+- `git push` : Pushes all the modified local objects to the remore repository, example `git push origin master`.
 
 ## Branch management
 

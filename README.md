@@ -8,6 +8,16 @@ Some basic &amp; usefull git commands
 - `git stauts` : lists all new or modified files to be commited.
 - `git log` : viewing the commit history.
 - `git diff --staged` : shows file differences between staging and the last file version.
+- create a new repository on the command line (The -u option is for "Upstream" and automatically sets that upstream for you) :
+
+```
+echo "# HarmonieIPAuth" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://sgithub.fr.world.socgen/Harmonie/HarmonieIPAuth.git
+git push -u origin master
+```
 
 ## Saving changes & resetting
 

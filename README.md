@@ -11,11 +11,11 @@ Some basic &amp; usefull git commands
 - create a new repository on the command line (The -u option is for "Upstream" and automatically sets that upstream for you) :
 
 ```
-echo "# HarmonieIPAuth" >> README.md
+echo "# MyProject" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
-git remote add origin https://sgithub.fr.world.socgen/Harmonie/HarmonieIPAuth.git
+git commit -m "my first commit"
+git remote add origin url.git
 git push -u origin master
 ```
 

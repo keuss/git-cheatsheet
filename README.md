@@ -19,6 +19,8 @@ git remote add origin url.git
 git push -u origin master
 ```
 
+ - `git config --global --edit` : edit the global config file
+
 ## Saving changes & resetting
 
 - `git add <file> or <directory>` (example : ` git add app/src/test.txt` or `git add .`) : adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.

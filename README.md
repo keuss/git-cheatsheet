@@ -30,6 +30,7 @@ git push -u origin master
 - `git commit -m <message>` : the staged snapshot is committed to the project history.
 - `git commit -am <message>` : the staged snapshot is committed to the project history + git add for the already tracked files.
 - `git reset --hard HEAD^` : to undo a local commit + resets your index and working directory.
+- `git reset --soft HEAD^` : to undo a local commit + but leaving the working directory state unchanged
 
 ## Synchronization
 

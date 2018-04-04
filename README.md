@@ -46,6 +46,8 @@ git push -u origin master
 - `git checkout -b <new-branch>` : create and check out new-branch.
 - `git merge <branch>` : merge the specified branch into the current branch. Git will determine the merge algorithm automatically.
 - `git merge --no-ff <branch>` : merge the specified branch into the current branch, but always generate a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.
+- `git branch -d <branch>` or `git branch -D <branch>` : delete Local Branch
+- `git push <remote> --delete <branch>` : delete Remote Branch
 
 ## Tag management
 

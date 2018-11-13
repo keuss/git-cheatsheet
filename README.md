@@ -90,7 +90,24 @@ theirs
 
 ## .gitconfig
 
-WIP ...
+Alias :
+
+```
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	last = log -1 HEAD
+	ci = commit
+	gdiff = diff-tree --no-commit-id --name-only -r
+	gdesc = log -1 --pretty='%H (%cn on %cD) %s'
+	lg = log --graph --all --date-order --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset'
+	lgb = log --graph --date-order --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset'
+	glog = log --decorate --oneline --graph --all
+	graph = log --graph --all --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(black)%s%C(reset) %C(blue)? %an%C(reset)%C(yellow)%d%C(reset)' --abbrev-commit --date=relative
+	oops = commit --amend --no-edit
+	wdiff = diff --word-diff --color-words=. --word-diff-regex=.
+ ```
 
 ## Links
 

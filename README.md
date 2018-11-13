@@ -63,6 +63,26 @@ git push -u origin master
 - `git remote get-url origin` : display url of the repo
 - `git remote set-url origin <newurl>` : set new url
 
+## Conflicts
+
+- `git merge --strategy-option theirs <branchname>` : merge branchname in current branch with the recursive "theirs" strategy option
+
+```
+ours
+    This option forces conflicting hunks to be auto-resolved cleanly by 
+    favoring our version. Changes from the other tree that do not 
+    conflict with our side are reflected to the merge result.
+
+    This should not be confused with the ours merge strategy, which does 
+    not even look at what the other tree contains at all. It discards 
+    everything the other tree did, declaring our history contains all that
+    happened in it.
+
+theirs
+    This is opposite of ours.
+```
+
+
 ## Misc
 
 - What is `origin` : origin is an alias on your system for a particular remote repository. It's not actually a property of that repository (see [here](http://stackoverflow.com/questions/9529497/what-is-origin-in-git)).

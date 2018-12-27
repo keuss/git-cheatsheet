@@ -115,3 +115,4 @@ Alias :
 - https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 - https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+- Merge & Rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/

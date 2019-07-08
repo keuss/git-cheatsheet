@@ -111,8 +111,7 @@ Alias :
 
 ## Links
 
-- https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac
-- https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+- https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac (A comparison of using `git flow` commands versus raw `git` commands.)
 - https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 - Merge & Rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/

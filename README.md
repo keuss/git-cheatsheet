@@ -32,6 +32,7 @@ git push -u origin master
 - `git reset --hard HEAD^` : to undo a local commit + resets your index and working directory.
 - `git reset --soft HEAD^` : to undo a local commit + but leaving the working directory state unchanged
 - `git commit --amend` : update last commit message
+- `git stash` : when you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit. `git stash pop` to come back
 
 ## Synchronization
 

@@ -50,7 +50,7 @@ git push -u origin master
 - `git push -u origin <new-branch>` : pushes new-feature to the central repository (origin), and the -u flag adds it as a remote tracking branch. After setting up the tracking branch, git push can be invoked without any parameters to automatically push the <new-branch> branch to the central repository
 - `git merge <branch>` : merge the specified branch into the current branch. Git will determine the merge algorithm automatically.
 - `git merge --no-ff <branch>` : merge the specified branch into the current branch, but always generate a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.
-- `git branch -d <branch>` or `git branch -D <branch>` : delete Local Branch (mush checkout branch once)
+- `git branch -d <branch>` or `git branch -D <branch>` : delete Local Branch (must checkout branch once)
 - `git push <remote> --delete <branch>` : delete Remote Branch (example : `git push origin --delete feature/5073-explo`
 
 ## Tag management

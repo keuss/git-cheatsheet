@@ -85,7 +85,6 @@ theirs
     This is opposite of ours.
 ```
 
-
 ## Misc
 
 - What is `origin` : origin is an alias on your system for a particular remote repository. It's not actually a property of that repository (see [here](http://stackoverflow.com/questions/9529497/what-is-origin-in-git)).
@@ -111,6 +110,14 @@ Alias :
 	oops = commit --amend --no-edit
 	wdiff = diff --word-diff --color-words=. --word-diff-regex=.
  ```
+ 
+Proxy and SSL verify false :
+
+```
+[http]
+	sslVerify = false
+	proxy = <host:port>
+```
 
 ## Links
 

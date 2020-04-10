@@ -20,6 +20,7 @@ git push -u origin master
 ```
 
  - `git config --global --edit` : edit the global config file
+ - `git config --global core.autocrlf true` : Checkout Windows-style, commit Unix-style
 
 ## Saving changes & resetting
 

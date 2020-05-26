@@ -73,6 +73,8 @@ git push -u origin master
 - 2/ `git add <filename>` to mark the file as resolved by hand (for each files)
 - 3/ `git commit` 
 
+> Help
+
 - `git merge --abort` : undo a merge
 - `git reset --hard` : to start over again
 - `git merge --strategy-option theirs <branchname>` : merge branchname in current branch with the recursive "theirs" strategy option

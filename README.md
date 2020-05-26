@@ -69,6 +69,12 @@ git push -u origin master
 
 ## Conflicts
 
+- 1/ Solve merge conflict(s) (here without tool)
+- 2/ `git add <filename>` to mark the file as resolved by hand (for each files)
+- 3/ `git commit` 
+
+- `git merge --abort` : undo a merge
+- `git reset --hard` : to start over again
 - `git merge --strategy-option theirs <branchname>` : merge branchname in current branch with the recursive "theirs" strategy option
 
 ```

@@ -129,6 +129,9 @@ Proxy and SSL verify false :
 	proxy = <host:port>
 ```
 
+`git config --global http.sslVerify false` This will disable SSL verification for all repositories
+
+
 ## Links
 
 - https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac (A comparison of using `git flow` commands versus raw `git` commands.)

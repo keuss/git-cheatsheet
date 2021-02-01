@@ -38,6 +38,7 @@ git push -u origin master
 ## Synchronization
 
 - `git fetch` : fetches all the objects (files, branch, ...) from the remote repository that are not present in the local one (example `git fetch origin`).
+- `git fetch --all` : to update all local copies of remote branches
 - `git pull` : fetches the files from the remote repository and merges it with your local one (git fetch + git merge), example `git pull origin master`.
 - `git pull --rebase` : rebase mode (example `pull --rebase origin develop`). Perfome git fetch + git rebase against tracking upstream branch. To set this mode by default `git config --global pull.rebase true`
 - `git rebase --abort` to completely undo the rebase

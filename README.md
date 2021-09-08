@@ -21,6 +21,9 @@ git push -u origin master
 
  - `git config --global --edit` : edit the global config file
  - `git config --global core.autocrlf true` : Checkout Windows-style, commit Unix-style
+ - Helper credential for windows `git config --global credential.helper wincred`
+ - Helper credential for linux `git config --global credential.helper cache`
+ - Delete cache with `git config --global --unset credential.helper` and `git config --system --unset credential.helper`
 
 ## Saving changes & resetting
 

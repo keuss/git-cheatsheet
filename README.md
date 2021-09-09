@@ -5,7 +5,7 @@ Some basic &amp; usefull git commands
 
 - `git init <directory>` : transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions of the project.
 - `git clone <repo> <directory>` : clone the repository into the folder on the local machine (makes a git repositpry copy from a remonte source).
-- `git stauts` : lists all new or modified files to be commited.
+- `git status` : lists all new or modified files to be commited.
 - `git log` : viewing the commit history.
 - `git diff --staged` : shows file differences between staging and the last file version.
 - create a new repository on the command line (The -u option is for "Upstream" and automatically sets that upstream for you) :

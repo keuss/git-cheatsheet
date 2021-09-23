@@ -142,3 +142,5 @@ Proxy and SSL verify false :
 - https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 - Merge & Rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
+- https://nvie.com/posts/a-successful-git-branching-model/
+- http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html

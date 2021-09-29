@@ -61,15 +61,16 @@ git push -u origin master
 	
 ## [Rebasing](https://strongbox.github.io/developer-guide/git/rebase-vs-merge.html)
 	
- - In IntelliJ you need to be at your feature branch, at the bottom right corner, select the develop branch and "Rebase Current onto Selected"
+ - In IntelliJ you need to be at your feature branch, from the bottom right corner, select the develop branch and "Rebase Current onto Selected" (Selected is develop)
  - What this will do is to rebase the feature branch onto the develop
+ - In command line :
 
 ```
 git checkout feature
 git rebase develop
 ```
 
- - Then : `git push --force origin feature` (please be sure nobody else is working on this branch) 
+ -  In remote, you have now rewritten the history of feature branch : `git push --force origin feature` (please be sure nobody else is working on this branch) 
 
 ## Tag management
 

@@ -61,6 +61,8 @@ git push -u origin master
 	
 ## [Rebasing](https://strongbox.github.io/developer-guide/git/rebase-vs-merge.html)
 	
+Need to incorporate the new commits in develop into your feature branch
+
  - In IntelliJ you need to be at your feature branch, from the bottom right corner, select the develop branch and "Rebase Current onto Selected" (Selected is develop)
  - What this will do is to rebase the feature branch onto the develop
  - In command line :
@@ -70,7 +72,7 @@ git checkout feature
 git rebase develop
 ```
 
- -  In remote, you have now rewritten the history of feature branch : `git push --force origin feature` (please be sure nobody else is working on this branch) 
+ -  In remote, you have now (rewritten the history)[https://stackoverflow.com/questions/40009820/git-rebase-one-branch-on-top-of-another-branch/40009875] of feature branch : `git push --force origin feature` (*please be sure nobody else is working on this branch*) 
 
 ## Tag management
 

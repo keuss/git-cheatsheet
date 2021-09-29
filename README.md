@@ -72,7 +72,7 @@ git checkout feature
 git rebase develop
 ```
 
- -  In remote, you have now (rewritten the history)[https://stackoverflow.com/questions/40009820/git-rebase-one-branch-on-top-of-another-branch/40009875] of feature branch : `git push --force origin feature` (*please be sure nobody else is working on this branch*) 
+ -  In remote, you have now [rewritten the history](https://stackoverflow.com/questions/40009820/git-rebase-one-branch-on-top-of-another-branch/40009875) of feature branch : `git push --force origin feature` (*please be sure nobody else is working on this branch*) 
 
 ## Tag management
 
@@ -156,6 +156,6 @@ Proxy and SSL verify false :
 - https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac (A comparison of using `git flow` commands versus raw `git` commands.)
 - https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
-- Merge & Rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
+- Merge & Rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/ / https://strongbox.github.io/developer-guide/git/rebase-vs-merge.html
 - https://nvie.com/posts/a-successful-git-branching-model/
 - http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html

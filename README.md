@@ -58,6 +58,18 @@ git push -u origin master
 - `git merge --no-ff <branch>` : merge the specified branch into the current branch, but always generate a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.
 - `git branch -d <branch>` or `git branch -D <branch>` : delete Local Branch (must checkout branch once)
 - `git push <remote> --delete <branch>` : delete Remote Branch (example : `git push origin --delete feature/5073-explo`
+	
+## [Rebasing](https://strongbox.github.io/developer-guide/git/rebase-vs-merge.html)
+	
+ - In IntelliJ you need to be at your feature branch, at the bottom right corner, select the develop branch and "Rebase Current onto Selected"
+ - What this will do is to rebase the feature branch onto the develop
+
+```
+git checkout feature
+git rebase develop
+```
+
+ - Then : `git push --force origin feature` (please be sure nobody else is working on this branch) 
 
 ## Tag management
 

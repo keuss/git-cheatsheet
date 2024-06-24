@@ -64,7 +64,7 @@ git push -u origin master
 Need to incorporate the new commits in develop into your feature branch
 
  - Update your develop (or master or main) branch first
- - In IntelliJ you need to be at your feature branch, from the bottom right corner, select the develop branch and "Rebase Current onto Selected" (Selected is develop)
+ - In IntelliJ you need to be at your feature branch, from the bottom right corner, select the develop branch and "Rebase Current onto Selected" (Selected is develop). Or "Rebase '<feature branch>' onto 'dev'"
  - What this will do is to rebase the feature branch onto the develop
  - In command line :
 

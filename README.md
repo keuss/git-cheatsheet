@@ -140,6 +140,19 @@ Alias :
 	oops = commit --amend --no-edit
 	wdiff = diff --word-diff --color-words=. --word-diff-regex=.
  ```
+
+To see all your aliases, list your configuration with git config : `git config --global -l`
+
+```
+git config --global alias.st 'status'
+git config --global alias.co 'checkout'
+git config --global alias.br 'branch'
+git config --global alias.lg 'log --oneline'
+git config --global alias.last 'log -1 HEAD --stat'
+git config --global alias.cm 'commit -m'
+git config --global alias.ca 'commit -am'
+git config --global alias.oops 'commit --amend --no-edit'
+```
  
 Proxy and SSL verify false :
 

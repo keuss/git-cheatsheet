@@ -174,3 +174,4 @@ Proxy and SSL verify false :
 - Merge & Rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/ / https://strongbox.github.io/developer-guide/git/rebase-vs-merge.html
 - https://nvie.com/posts/a-successful-git-branching-model/
 - http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
+- How can I restore the IntelliJ IDEA commit tab? : https://stackoverflow.com/questions/72490629/how-can-i-restore-the-intellij-idea-commit-tab

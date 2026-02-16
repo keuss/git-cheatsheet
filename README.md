@@ -100,6 +100,7 @@ git rebase develop
 - `git merge --abort` : undo a merge
 - `git reset --hard` : to start over again
 - `git merge --strategy-option theirs <branchname>` : merge branchname in current branch with the recursive "theirs" strategy option (`git merge -X theirs <branchname>` Short option)
+- How do I finish the merge after resolving my merge conflicts? : `git merge --continue`
 
 ```
 ours
